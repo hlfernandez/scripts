@@ -4,6 +4,7 @@ A collection of some useful `Linux/bash` scripts that I use on a regular basis f
 
 ## List of scripts
 Here is a alphabetically ordered list of the scripts:
+- `capitalize-words.sh`: this script capitalizes all words in a given text. Example: `capitalize-words.sh "WORD1 WORD2" "word1 word2" "word1 WORD2"`.
 - `clean-trailing-spaces.sh`: this script removes the trailing spaces of a list of given files passed as arguments. Moreover, with option `-b` it also creates a backup of the original file. Example: `clean-trailing-spaces.sh -b file1.txt file2.java`.
 - `create-script-skeleton.sh`: this script creates an skeleton for a bash script with arguments parsing and checking following good practices.
 - `diff-head-sh`: applies the `diff` command just on the head of the files. The number of head lines to consider can be passed as third argument. Example: `diff-head a.txt b.txt 4`.
