@@ -3,6 +3,8 @@
 cat << 'EOF'
 #!/bin/bash
 
+SCRIPT_DIR=$(cd $(dirname "${BASH_SOURCE[0]}") && pwd)
+
 # Inspired by: http://robertmuth.blogspot.com/2012/08/better-bash-scripting-in-15-minutes.html
 
 display_usage() {
