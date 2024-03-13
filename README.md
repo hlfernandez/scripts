@@ -1,3 +1,5 @@
+<img src="artwork.png" align="right" style="max-width: 33%"/>
+
 # My collection of `Linux/bash` scripts
 
 A collection of some useful `Linux/bash` scripts that I use on a regular basis for doing different things.
@@ -12,3 +14,4 @@ Here is a alphabetically ordered list of the scripts:
 - `install-script.sh`: makes a link to a script to it at `/usr/local/bin` (this path can be changed by editing the `DEFAULT_INST_DIR` variable in the script). For example, `install-script.sh launch-aibench.sh` will create a link to `launch-aibench.sh` at `/usr/local/bin/launch-aibench`. By default, the name of the link is the name of the script without the extension although it can be specified as second parameter.
 - `launch-aibench.sh`: this script starts an [AIBench](http://www.aibench.org/), with options (`-c/--compile` or `-cc/--clean-compile`) to build it before.
 - `remove-blank-lines.sh <file>`: this script edits the input `<file>` to remove all empty lines (lines without any characters at all or containing only space characters).
+- `repeat-pdfs <file> <times>`: this script repeats a PDF file multiple times. To do so, it uses `pdftk` through a Docker image.
