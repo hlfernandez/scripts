@@ -1,8 +1,10 @@
-<img src="artwork.png" align="right" style="max-width: 33%"/>
-
 # My collection of `Linux/bash` scripts
 
 A collection of some useful `Linux/bash` scripts that I use on a regular basis for doing different things.
+
+<p align="center">
+    <img src="artwork.png" alt="90s Computing Illustration" width="333"/>
+</p>
 
 ## List of scripts
 Here is a alphabetically ordered list of the scripts:
