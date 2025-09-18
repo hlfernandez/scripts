@@ -32,6 +32,8 @@ Here is an alphabetically ordered list of the scripts:
 - 🔗 **`install-script.sh`**: Creates a link to a script at `/usr/local/bin` (can be changed via `DEFAULT_INST_DIR`).<br>
   <sub>Example: `install-script.sh launch-aibench.sh`</sub>
 - 🧠 **`launch-aibench.sh`**: Starts an [AIBench](http://www.aibench.org/), with options (`-c/--compile` or `-cc/--clean-compile`) to build it before.
+- 🎲 **`rand_numbers.sh`**: Generates random numbers given a seed, the amount of numbers and the range.<br>
+  <sub>Example: `rand_numbers.sh 2025 10 1 20` (generates 10 numbers between 1 and 20)</sub>
 - 🗑️ **`remove-blank-lines.sh <file>`**: Edits the input `<file>` to remove all empty lines (lines without any characters or only spaces).
 - 📑 **`repeat-pdfs <file> <times>`**: Repeats a PDF file multiple times using `pdftk` via Docker.
 - 🔄 **`rename-reverse.sh </path/to/dir> [--dry-run]`**: Renames files starting with `<number>_` to invert all numbers. Use `--dry-run` to preview changes.<br>
